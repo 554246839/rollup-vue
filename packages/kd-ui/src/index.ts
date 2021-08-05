@@ -1,5 +1,6 @@
 // Basic
 import { KdTable } from '../packages/KdTable'
+import { KdButton } from '../packages/KdButton'
 
 import { JsonDialog as kdJsonDialog } from '../packages/KdJsonDialog'
 
@@ -8,6 +9,7 @@ import { setupGlobalOptions } from './globalConfig'
 
 const components = [
   KdTable,
+  KdButton
 ]
 
 const install = (app: any, opts = {}) => {
@@ -31,6 +33,7 @@ const kdui = {
 
 export {
   KdTable,
+  KdButton,
   kdJsonDialog,
   install
 }

@@ -1,5 +1,6 @@
 <template>
-  <button @click="showDialog">show Dialog</button>
+  <button @click="showDialog">show Dialog</button> &nbsp;
+  <router-link :to="{path: '/'}">to index</router-link> &nbsp;
   <router-link :to="{path: '/home'}">to home</router-link> &nbsp;
   <router-view></router-view>
 </template>

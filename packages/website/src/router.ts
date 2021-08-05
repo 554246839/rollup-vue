@@ -6,8 +6,8 @@ import * as VueRouter from 'vue-router'
 const baseRoutes: VueRouter.RouteRecordRaw[] = [
   {
     path: '/',
-    name: 'Homep',
-    component: () => import('./views/Home.vue')
+    name: 'index',
+    component: () => import('./views/index.vue')
   },
   {
     path: '/home',
